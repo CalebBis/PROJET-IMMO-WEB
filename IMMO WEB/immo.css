@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f9f9f9;
+    
+    
+    
+
+}
+header{
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.0);
+    
+}
+.logo{
+    margin: 20px; ;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-right: 30px;
+    margin-top: 20px;
+    
+    
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+     background-color: black;
+    border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      border:  rgba(0, 0, 0, 0.1) solid;
+    transition: scale 0.2 ease;
+}
+.navbar:hover{
+     
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    height: 100vh;
+}
+.navbar ul li a:hover{
+    color:green;
+    background-color: rgb(217, 255, 0) ;
+    padding: 10px 10px;
+    border-radius: 20px;
+    scale: 1.05;
+    
+}
+.toggle{
+
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    margin-right: 20px;
+
+}
+.connect{
+    text-decoration: none;
+    background-color: rgb(217, 255, 0) ;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition: scale 0.2 ease;
+}
+.connect:hover{
+    color: green;
+    scale: 1.05;
+}
+.toggle_menu{
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgba(225, 255, 255, 0.1);
+    backdrop-filter: blur(55px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.toggle_menu_open{
+    height: 240px;
+
+}
+.toggle_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle_menu .connect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.corps{
+    padding: 20px;
+}
+.acceuil{
+    background-image: url('salon-unfocused-avec-une-image-sur-le-mur.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.txt_acceuil h1{
+    font-size:32px ;
+    margin-bottom: 20px;
+}
+.btn1{
+    background-color: rgb(217, 255, 0);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.btn1:hover{
+    color: blue;
+}
+.img1{
+    height: 75px;
+    width: auto;
+}
+.a-propos{
+    background-color: red;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+}
+
+.txt2{
+    max: width 800px;
+    width: 550px;
+    background-color:white(218, 203, 203);
+    border: #555;
+    box-shadow:  10px 10px 15px rgba(0,0, 0, 0.5) ;
+    padding: 100px 60px;
+    
+    
+}
+.txt2 h1{
+    text-align: center;
+    position:relative;
+    top:-20px;
+    font-size: 32px;
+    margin-bottom: 20p meme chose;
+}
+.txt2 p{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.btn2{
+    background-color:  rgb(217, 255, 0);
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: rgb(21, 17, 17);
+    font-weight: bolder;
+    position: relative;
+    top: 15px;
+}
+.btn2:hover{
+    color:blue;
+}
+
+.section2{
+    margin-top: 30px;
+     background-color:white;
+    border: #555;
+    box-shadow:  10px 10px 15px rgba(0.1,0.1, 0.1, 0.1) ;
+    width: auto;
+    height: 100vh;
+    padding: 20px;
+}
+.à-louer{
+    gap: 10px;
+    display: flex;
+    background-color:white;
+    height: 100%;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn3{
+     background-color:  rgb(217, 255, 0);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(21, 17, 17);
+    font-weight: bolder;
+    position: relative;
+    top: 15px;
+}
+
+
+
+.à-louer div{
+    background-color:white;
+    width: 20%;
+    height: 48%;
+     border: #555;
+    box-shadow:  10px 10px 15px rgba(0.1,0.1, 0.1, 0.1) ;
+    padding: 5px;
+    overflow: hidden;
+    flex-basis: 270px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.à-louer div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.à-louer div img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    
+    
+}
+@media (max-width:800px){
+    .navbar,.connect{
+        display: none;
+    }
+    .toggle{
+        display: block;
+    }
+
+}
+@media(max-width:1500px ){
+    .section2{
+        height: 100%;
+        width: auto;
+        
+    }
+    .à-louer div{
+        height: 325px;
+        width: auto;
+        background-color: white;
+    }
+}
+@media (max-width:800px){
+   .toggle_menu{
+    width: unset;
+    left: 2rem;
+
+   }
+    
+}
